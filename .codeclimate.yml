@@ -1,20 +1,20 @@
 engines:
   csslint:
-    enabled: true
+    enabled: false
   duplication:
     enabled: true
-    config:
-      languages:
-      - ruby
-      - javascript
-      - python
-      - php
+    # config:
+    #   languages:
+    #   - ruby
+    #   - javascript
+    #   - python
+    #   - php
   eslint:
     enabled: false
   fixme:
-    enabled: true
+    enabled: false
   phpmd:
-    enabled: true
+    enabled: false
 ratings:
   paths:
   - "**.css"
