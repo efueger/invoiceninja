@@ -3,12 +3,12 @@ engines:
     enabled: false
   duplication:
     enabled: true
-    # config:
-    #   languages:
-    #   - ruby
-    #   - javascript
-    #   - python
-    #   - php
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
   eslint:
     enabled: false
   fixme:
@@ -34,3 +34,4 @@ exclude_paths:
 - "**.min.js"
 - "**.min.php"
 - "**.min.css"
+
